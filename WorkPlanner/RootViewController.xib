@@ -19,21 +19,118 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ht-Mr-Ur4">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="barTintColor" red="0.0" green="0.99835759401321411" blue="0.77318317191936792" alpha="1" colorSpace="calibratedRGB"/>
-                    <textAttributes key="titleTextAttributes">
-                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </textAttributes>
-                    <items>
-                        <navigationItem title="To-Do Card List" id="P2A-AI-xW4"/>
-                    </items>
-                </navigationBar>
+                <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dKa-nh-Eph">
+                    <rect key="frame" x="188" y="553" width="39" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xl6-7p-WLz">
+                    <rect key="frame" x="18" y="35" width="99.5" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="0.99835759400000001" blue="0.63370970701255436" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="33c-5w-jxL"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="ToDo">
+                                <attributes>
+                                    <font key="NSFont" size="15" name="Arial-BoldMT"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="Camera">
+                                <attributes>
+                                    <font key="NSFont" size="24" name="Arial-BoldMT"/>
+                                    <font key="NSOriginalFont" size="24" name="Arial-BoldMT"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gEE-7L-PDY">
+                    <rect key="frame" x="137.5" y="35" width="100" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="0.99835759400000001" blue="0.77318317189999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="ToDo">
+                                <attributes>
+                                    <font key="NSFont" size="15" name="Arial-BoldMT"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="Ca">
+                                <attributes>
+                                    <font key="NSFont" size="24" name="Arial-BoldMT"/>
+                                    <font key="NSOriginalFont" size="24" name="Arial-BoldMT"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="rds">
+                                <attributes>
+                                    <font key="NSFont" size="24" name="Arial-BoldMT"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xek-p8-Ipo">
+                    <rect key="frame" x="257.5" y="35" width="99.5" height="100"/>
+                    <color key="backgroundColor" red="0.0030922006994477716" green="0.99835759400000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="ToDo Job">
+                                <attributes>
+                                    <font key="NSFont" size="15" name="Arial-BoldMT"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="Order">
+                                <attributes>
+                                    <font key="NSFont" size="24" name="Arial-BoldMT"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="-334" y="35"/>
+            <constraints>
+                <constraint firstItem="xek-p8-Ipo" firstAttribute="height" secondItem="xl6-7p-WLz" secondAttribute="height" id="3nn-hD-w1F"/>
+                <constraint firstItem="xek-p8-Ipo" firstAttribute="width" secondItem="xl6-7p-WLz" secondAttribute="width" id="Cme-Y7-zX8"/>
+                <constraint firstItem="gEE-7L-PDY" firstAttribute="leading" secondItem="xl6-7p-WLz" secondAttribute="trailing" constant="20" id="JVr-4z-o4H"/>
+                <constraint firstAttribute="trailing" secondItem="xek-p8-Ipo" secondAttribute="trailing" constant="18" id="Ttk-0F-iSA"/>
+                <constraint firstItem="gEE-7L-PDY" firstAttribute="height" secondItem="xl6-7p-WLz" secondAttribute="height" id="fUw-vq-g9a"/>
+                <constraint firstItem="xek-p8-Ipo" firstAttribute="top" secondItem="xl6-7p-WLz" secondAttribute="top" id="k5D-2Z-OcJ"/>
+                <constraint firstItem="xek-p8-Ipo" firstAttribute="leading" secondItem="gEE-7L-PDY" secondAttribute="trailing" constant="20" id="kkd-U2-BMo"/>
+                <constraint firstItem="gEE-7L-PDY" firstAttribute="width" secondItem="xl6-7p-WLz" secondAttribute="width" id="o3r-Rf-zKv"/>
+                <constraint firstItem="gEE-7L-PDY" firstAttribute="top" secondItem="xl6-7p-WLz" secondAttribute="top" id="pia-pg-dbC"/>
+                <constraint firstItem="xl6-7p-WLz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="35" id="qlV-f0-0YK"/>
+                <constraint firstItem="xl6-7p-WLz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="r53-Kn-T1Y"/>
+            </constraints>
+            <point key="canvasLocation" x="-334.5" y="34.5"/>
         </view>
     </objects>
 </document>
