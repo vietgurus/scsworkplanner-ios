@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922271561DDDC1B000317A33 /* CreateNewToDoCardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922271551DDDC1B000317A33 /* CreateNewToDoCardController.xib */; };
+		922271581DDDC54000317A33 /* CreateNewToDoCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922271571DDDC54000317A33 /* CreateNewToDoCardController.swift */; };
 		922E53F41DD40E0800E71BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E53F31DD40E0800E71BD8 /* AppDelegate.swift */; };
 		922E53F61DD40E0800E71BD8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E53F51DD40E0800E71BD8 /* RootViewController.swift */; };
-		922E53FB1DD40E0800E71BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922E53FA1DD40E0800E71BD8 /* Assets.xcassets */; };
 		922E54091DD40E0800E71BD8 /* WorkPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E54081DD40E0800E71BD8 /* WorkPlannerTests.swift */; };
 		922E54141DD40E0800E71BD8 /* WorkPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E54131DD40E0800E71BD8 /* WorkPlannerUITests.swift */; };
 		922E54221DD43D6800E71BD8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922E54211DD43D6800E71BD8 /* RootViewController.xib */; };
+		92FDB0191DE29AC4001D401D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FDB0181DE29AC4001D401D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922271551DDDC1B000317A33 /* CreateNewToDoCardController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewToDoCardController.xib; sourceTree = "<group>"; };
+		922271571DDDC54000317A33 /* CreateNewToDoCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewToDoCardController.swift; sourceTree = "<group>"; };
 		922E53F01DD40E0800E71BD8 /* WorkPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922E53F31DD40E0800E71BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		922E53F51DD40E0800E71BD8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		922E53FA1DD40E0800E71BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922E53FF1DD40E0800E71BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922E54041DD40E0800E71BD8 /* WorkPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922E54081DD40E0800E71BD8 /* WorkPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkPlannerTests.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		922E54131DD40E0800E71BD8 /* WorkPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkPlannerUITests.swift; sourceTree = "<group>"; };
 		922E54151DD40E0800E71BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922E54211DD43D6800E71BD8 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		92FDB0181DE29AC4001D401D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		922E53F21DD40E0800E71BD8 /* WorkPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				92FDB0181DE29AC4001D401D /* Assets.xcassets */,
 				922E53F31DD40E0800E71BD8 /* AppDelegate.swift */,
 				922E53F51DD40E0800E71BD8 /* RootViewController.swift */,
 				922E54211DD43D6800E71BD8 /* RootViewController.xib */,
-				922E53FA1DD40E0800E71BD8 /* Assets.xcassets */,
 				922E53FF1DD40E0800E71BD8 /* Info.plist */,
+				922271551DDDC1B000317A33 /* CreateNewToDoCardController.xib */,
+				922271571DDDC54000317A33 /* CreateNewToDoCardController.swift */,
 			);
 			path = WorkPlanner;
 			sourceTree = "<group>";
@@ -230,7 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				922E54221DD43D6800E71BD8 /* RootViewController.xib in Resources */,
-				922E53FB1DD40E0800E71BD8 /* Assets.xcassets in Resources */,
+				92FDB0191DE29AC4001D401D /* Assets.xcassets in Resources */,
+				922271561DDDC1B000317A33 /* CreateNewToDoCardController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			files = (
 				922E53F61DD40E0800E71BD8 /* RootViewController.swift in Sources */,
 				922E53F41DD40E0800E71BD8 /* AppDelegate.swift in Sources */,
+				922271581DDDC54000317A33 /* CreateNewToDoCardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,12 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navigationController: UINavigationController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let rootViewController: RootViewController = RootViewController()
+        navigationController = UINavigationController(rootViewController: rootViewController)
+
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = RootViewController()
+        self.window?.rootViewController = navigationController
         
         self.window?.makeKeyAndVisible()
         
