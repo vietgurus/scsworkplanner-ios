@@ -33,6 +33,7 @@ class CreateNewToDoCardController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "New ToDo Card"
         //TODO
         //setLocation
         showSetCategoryAlert()

@@ -7,12 +7,34 @@
 //
 
 import UIKit
+import iCarousel
 
 class ToDoCardListController: UIViewController {
 
+
+    @IBOutlet weak var toDoCardList: iCarousel!
+    
+    lazy var cardSize:CGRect = {
+        let width  = self.toDoCardList.frame.width
+        let height = self.toDoCardList.frame.height
+        let frame = CGRect(x: 0, y: 0, width: width, height: height)
+        return frame
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "ToDo Card List"
+/*
+        let toDoCardListView = ToDoCardListView()
+        toDoCardListView.center = CGPoint(x: toDoCardList.frame.width/2, y: toDoCardList.frame.height/2)
 
+        toDoCardList.addSubview(toDoCardListView)
+   */
+        self.toDoCardList.delegate = self
+        self.toDoCardList.dataSource = self
+        self.toDoCardList.bounceDistance = 0.3
+        self.toDoCardList.clipsToBounds = true
+        self.toDoCardList.reloadData()
         // Do any additional setup after loading the view.
     }
 
@@ -32,4 +54,28 @@ class ToDoCardListController: UIViewController {
     }
     */
 
+}
+
+extension ToDoCardListController: iCarouselDataSource {
+    
+    func numberOfItems(in carousel: iCarousel) -> Int {
+        //TODO
+        // return the count of cards
+        return 2
+    }
+    
+    func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
+        var toDoCardListView: ToDoCardListView?
+        //if let castedView = view as? ToDoCardListView {
+          //  toDoCardListView = castedView
+        //} else {
+        toDoCardListView = ToDoCardListView(frame: cardSize)
+        //}
+        //toDoCardListView!.updateMonitoring(monitorings[index])
+        return toDoCardListView!
+    }
+}
+
+extension ToDoCardListController: iCarouselDelegate {
+    
 }

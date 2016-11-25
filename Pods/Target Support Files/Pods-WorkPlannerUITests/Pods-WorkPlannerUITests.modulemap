@@ -1,0 +1,6 @@
+framework module Pods_WorkPlannerUITests {
+  umbrella header "Pods-WorkPlannerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

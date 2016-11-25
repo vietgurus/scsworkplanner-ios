@@ -24,7 +24,6 @@ class RootViewController: UIViewController {
   */
     override func viewDidLoad() {
         super.viewDidLoad()
-        toDoCameraButton.addTarget(self, action: "onClickToDoCameraButton:", for: .touchUpInside)
    }
 
     override func didReceiveMemoryWarning() {
@@ -34,9 +33,13 @@ class RootViewController: UIViewController {
     
     @IBAction func onClickToDoCameraButton(_ sender: Any) {
         let controller: UIViewController = CreateNewToDoCardController()
-        if navigationController != nil {
-            navigationController?.pushViewController(controller, animated: true)
-        }
+        navigationController?.pushViewController(controller, animated: true)
     }
+    
+    @IBAction func onClickToDoCardsButton(_ sender: Any) {
+        let controller: UIViewController = ToDoCardListController()
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
 }
 

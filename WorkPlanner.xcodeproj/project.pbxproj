@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B23A45A2D845EEBDA54D8DF /* Pods_WorkPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE934E7C3BAC09B91C76C65 /* Pods_WorkPlannerUITests.framework */; };
+		920611451DE5884100BD653C /* ToDoCardListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920611441DE5884100BD653C /* ToDoCardListView.xib */; };
+		920611471DE58A0000BD653C /* ToDoCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920611461DE58A0000BD653C /* ToDoCardListView.swift */; };
+		920611491DE67EDA00BD653C /* ToDoCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920611481DE67EDA00BD653C /* ToDoCardCell.swift */; };
+		9206114B1DE67F3C00BD653C /* ToDoCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9206114A1DE67F3C00BD653C /* ToDoCardCell.xib */; };
 		922271561DDDC1B000317A33 /* CreateNewToDoCardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922271551DDDC1B000317A33 /* CreateNewToDoCardController.xib */; };
 		922271581DDDC54000317A33 /* CreateNewToDoCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922271571DDDC54000317A33 /* CreateNewToDoCardController.swift */; };
 		922E53F41DD40E0800E71BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E53F31DD40E0800E71BD8 /* AppDelegate.swift */; };
@@ -14,7 +19,11 @@
 		922E54091DD40E0800E71BD8 /* WorkPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E54081DD40E0800E71BD8 /* WorkPlannerTests.swift */; };
 		922E54141DD40E0800E71BD8 /* WorkPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E54131DD40E0800E71BD8 /* WorkPlannerUITests.swift */; };
 		922E54221DD43D6800E71BD8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922E54211DD43D6800E71BD8 /* RootViewController.xib */; };
+		92F3F6461DE5307900065A1A /* ToDoCardListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3F6441DE5307900065A1A /* ToDoCardListController.swift */; };
+		92F3F6471DE5307900065A1A /* ToDoCardListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3F6451DE5307900065A1A /* ToDoCardListController.xib */; };
 		92FDB0191DE29AC4001D401D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FDB0181DE29AC4001D401D /* Assets.xcassets */; };
+		C4866D189C06889934C0820E /* Pods_WorkPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D3903668A09C5FBCAB2703 /* Pods_WorkPlanner.framework */; };
+		E1ACDBB42695B0AD7263447A /* Pods_WorkPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501AF5F524EF0E073892F02A /* Pods_WorkPlannerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17738CA2A789036065DD94C0 /* Pods-WorkPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkPlannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkPlannerTests/Pods-WorkPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C95764A3F40FEFE24164655 /* Pods-WorkPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkPlanner/Pods-WorkPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		3DE3880877546098C16E398A /* Pods-WorkPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkPlannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkPlannerTests/Pods-WorkPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		45E580D9411C998EC0631750 /* Pods-WorkPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkPlannerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkPlannerUITests/Pods-WorkPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DE934E7C3BAC09B91C76C65 /* Pods_WorkPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501AF5F524EF0E073892F02A /* Pods_WorkPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D3903668A09C5FBCAB2703 /* Pods_WorkPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6277AA160AD2E3ACC227705D /* Pods-WorkPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkPlanner/Pods-WorkPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		920611441DE5884100BD653C /* ToDoCardListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoCardListView.xib; sourceTree = "<group>"; };
+		920611461DE58A0000BD653C /* ToDoCardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCardListView.swift; sourceTree = "<group>"; };
+		920611481DE67EDA00BD653C /* ToDoCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCardCell.swift; sourceTree = "<group>"; };
+		9206114A1DE67F3C00BD653C /* ToDoCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoCardCell.xib; sourceTree = "<group>"; };
 		922271551DDDC1B000317A33 /* CreateNewToDoCardController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewToDoCardController.xib; sourceTree = "<group>"; };
 		922271571DDDC54000317A33 /* CreateNewToDoCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewToDoCardController.swift; sourceTree = "<group>"; };
 		922E53F01DD40E0800E71BD8 /* WorkPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +69,10 @@
 		922E54131DD40E0800E71BD8 /* WorkPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkPlannerUITests.swift; sourceTree = "<group>"; };
 		922E54151DD40E0800E71BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922E54211DD43D6800E71BD8 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		92F3F6441DE5307900065A1A /* ToDoCardListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCardListController.swift; sourceTree = "<group>"; };
+		92F3F6451DE5307900065A1A /* ToDoCardListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoCardListController.xib; sourceTree = "<group>"; };
 		92FDB0181DE29AC4001D401D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAA979078596D42D2A0E7FD /* Pods-WorkPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkPlannerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkPlannerUITests/Pods-WorkPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4866D189C06889934C0820E /* Pods_WorkPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ACDBB42695B0AD7263447A /* Pods_WorkPlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B23A45A2D845EEBDA54D8DF /* Pods_WorkPlannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68BD1CECECEA0DC5F9730301 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C95764A3F40FEFE24164655 /* Pods-WorkPlanner.debug.xcconfig */,
+				6277AA160AD2E3ACC227705D /* Pods-WorkPlanner.release.xcconfig */,
+				17738CA2A789036065DD94C0 /* Pods-WorkPlannerTests.debug.xcconfig */,
+				3DE3880877546098C16E398A /* Pods-WorkPlannerTests.release.xcconfig */,
+				ECAA979078596D42D2A0E7FD /* Pods-WorkPlannerUITests.debug.xcconfig */,
+				45E580D9411C998EC0631750 /* Pods-WorkPlannerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		922E53E71DD40E0800E71BD8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				922E54071DD40E0800E71BD8 /* WorkPlannerTests */,
 				922E54121DD40E0800E71BD8 /* WorkPlannerUITests */,
 				922E53F11DD40E0800E71BD8 /* Products */,
+				68BD1CECECEA0DC5F9730301 /* Pods */,
+				9FF4A37C47DFE796EF3D6C1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,12 @@
 				922E53FF1DD40E0800E71BD8 /* Info.plist */,
 				922271551DDDC1B000317A33 /* CreateNewToDoCardController.xib */,
 				922271571DDDC54000317A33 /* CreateNewToDoCardController.swift */,
+				92F3F6441DE5307900065A1A /* ToDoCardListController.swift */,
+				92F3F6451DE5307900065A1A /* ToDoCardListController.xib */,
+				920611441DE5884100BD653C /* ToDoCardListView.xib */,
+				920611461DE58A0000BD653C /* ToDoCardListView.swift */,
+				920611481DE67EDA00BD653C /* ToDoCardCell.swift */,
+				9206114A1DE67F3C00BD653C /* ToDoCardCell.xib */,
 			);
 			path = WorkPlanner;
 			sourceTree = "<group>";
@@ -128,6 +176,16 @@
 			path = WorkPlannerUITests;
 			sourceTree = "<group>";
 		};
+		9FF4A37C47DFE796EF3D6C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51D3903668A09C5FBCAB2703 /* Pods_WorkPlanner.framework */,
+				501AF5F524EF0E073892F02A /* Pods_WorkPlannerTests.framework */,
+				4DE934E7C3BAC09B91C76C65 /* Pods_WorkPlannerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 922E54181DD40E0800E71BD8 /* Build configuration list for PBXNativeTarget "WorkPlanner" */;
 			buildPhases = (
+				03EAFB826B920FF0D5E1D54A /* [CP] Check Pods Manifest.lock */,
 				922E53EC1DD40E0800E71BD8 /* Sources */,
 				922E53ED1DD40E0800E71BD8 /* Frameworks */,
 				922E53EE1DD40E0800E71BD8 /* Resources */,
+				087D6DDE09030A20327BF53D /* [CP] Embed Pods Frameworks */,
+				03D9DC76A3DA51FF5889BEC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 922E541B1DD40E0800E71BD8 /* Build configuration list for PBXNativeTarget "WorkPlannerTests" */;
 			buildPhases = (
+				457F60D0FCB538F1A364B764 /* [CP] Check Pods Manifest.lock */,
 				922E54001DD40E0800E71BD8 /* Sources */,
 				922E54011DD40E0800E71BD8 /* Frameworks */,
 				922E54021DD40E0800E71BD8 /* Resources */,
+				F67A5E3ABF9C1F6C1B619CB6 /* [CP] Embed Pods Frameworks */,
+				6D193D1BE9021F33E3217CE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 922E541E1DD40E0800E71BD8 /* Build configuration list for PBXNativeTarget "WorkPlannerUITests" */;
 			buildPhases = (
+				142D4D63CA34253802AF2156 /* [CP] Check Pods Manifest.lock */,
 				922E540B1DD40E0800E71BD8 /* Sources */,
 				922E540C1DD40E0800E71BD8 /* Frameworks */,
 				922E540D1DD40E0800E71BD8 /* Resources */,
+				A6D8C8CA0975DB1F60FFB07D /* [CP] Embed Pods Frameworks */,
+				B7AB3AAB76575DDCD4B99EDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +305,9 @@
 				922E54221DD43D6800E71BD8 /* RootViewController.xib in Resources */,
 				92FDB0191DE29AC4001D401D /* Assets.xcassets in Resources */,
 				922271561DDDC1B000317A33 /* CreateNewToDoCardController.xib in Resources */,
+				920611451DE5884100BD653C /* ToDoCardListView.xib in Resources */,
+				92F3F6471DE5307900065A1A /* ToDoCardListController.xib in Resources */,
+				9206114B1DE67F3C00BD653C /* ToDoCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +327,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03D9DC76A3DA51FF5889BEC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkPlanner/Pods-WorkPlanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03EAFB826B920FF0D5E1D54A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		087D6DDE09030A20327BF53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkPlanner/Pods-WorkPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		142D4D63CA34253802AF2156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		457F60D0FCB538F1A364B764 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D193D1BE9021F33E3217CE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkPlannerTests/Pods-WorkPlannerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D8C8CA0975DB1F60FFB07D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkPlannerUITests/Pods-WorkPlannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AB3AAB76575DDCD4B99EDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkPlannerUITests/Pods-WorkPlannerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67A5E3ABF9C1F6C1B619CB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkPlannerTests/Pods-WorkPlannerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		922E53EC1DD40E0800E71BD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +472,10 @@
 			files = (
 				922E53F61DD40E0800E71BD8 /* RootViewController.swift in Sources */,
 				922E53F41DD40E0800E71BD8 /* AppDelegate.swift in Sources */,
+				920611471DE58A0000BD653C /* ToDoCardListView.swift in Sources */,
 				922271581DDDC54000317A33 /* CreateNewToDoCardController.swift in Sources */,
+				92F3F6461DE5307900065A1A /* ToDoCardListController.swift in Sources */,
+				920611491DE67EDA00BD653C /* ToDoCardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +606,7 @@
 		};
 		922E54191DD40E0800E71BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C95764A3F40FEFE24164655 /* Pods-WorkPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorkPlanner/Info.plist;
@@ -407,6 +619,7 @@
 		};
 		922E541A1DD40E0800E71BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6277AA160AD2E3ACC227705D /* Pods-WorkPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorkPlanner/Info.plist;
@@ -419,6 +632,7 @@
 		};
 		922E541C1DD40E0800E71BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17738CA2A789036065DD94C0 /* Pods-WorkPlannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -433,6 +647,7 @@
 		};
 		922E541D1DD40E0800E71BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE3880877546098C16E398A /* Pods-WorkPlannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +662,7 @@
 		};
 		922E541F1DD40E0800E71BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAA979078596D42D2A0E7FD /* Pods-WorkPlannerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WorkPlannerUITests/Info.plist;
@@ -460,6 +676,7 @@
 		};
 		922E54201DD40E0800E71BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E580D9411C998EC0631750 /* Pods-WorkPlannerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WorkPlannerUITests/Info.plist;

@@ -6,4 +6,8 @@
 //  Copyright © 2016 YOHEISASAKI. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ToDoCardCell: UITableViewCell {
+    
+}

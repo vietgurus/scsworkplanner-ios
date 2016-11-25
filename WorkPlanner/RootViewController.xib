@@ -100,6 +100,9 @@ Cg
                             <integer key="value" value="4"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="onClickToDoCardsButton:" destination="-1" eventType="touchUpInside" id="hUS-vT-pf0"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xek-p8-Ipo">
                     <rect key="frame" x="257.5" y="283.5" width="99.5" height="100"/>
